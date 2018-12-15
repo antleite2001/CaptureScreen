@@ -1,0 +1,57 @@
+C:\Users\ACVL\Documents\Visual Studio 2015\Projects\ni\ni\bin\Debug\ni.exe.config
+C:\Users\ACVL\Documents\Visual Studio 2015\Projects\ni\ni\bin\Debug\ni.exe
+C:\Users\ACVL\Documents\Visual Studio 2015\Projects\ni\ni\bin\Debug\ni.pdb
+C:\Users\ACVL\Documents\Visual Studio 2015\Projects\ni\ni\obj\Debug\ni.Properties.Resources.resources
+C:\Users\ACVL\Documents\Visual Studio 2015\Projects\ni\ni\obj\Debug\ni.csproj.GenerateResource.Cache
+C:\Users\ACVL\Documents\Visual Studio 2015\Projects\ni\ni\obj\Debug\ni.exe
+C:\Users\ACVL\Documents\Visual Studio 2015\Projects\ni\ni\obj\Debug\ni.pdb
+C:\Users\ACVL\Documents\Visual Studio 2015\Projects\ni\ni\obj\Debug\ni.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\ni\ni\bin\Debug\ni.exe.config
+C:\Program Files (x86)\ni\ni\obj\Debug\ni.exe
+C:\Program Files (x86)\ni\ni\obj\Debug\ni.pdb
+C:\Program Files (x86)\ni\ni\bin\Debug\ni.exe
+C:\Program Files (x86)\ni\ni\bin\Debug\ni.pdb
+C:\Program Files (x86)\ni\ni\obj\Debug\ni.Properties.Resources.resources
+C:\Program Files (x86)\ni\ni\obj\Debug\ni.csproj.GenerateResource.Cache
+C:\ni\ni\bin\Debug\ni.exe.config
+C:\ni\ni\obj\Debug\ni.exe
+C:\ni\ni\obj\Debug\ni.pdb
+C:\ni\ni\bin\Debug\ni.exe
+C:\ni\ni\bin\Debug\ni.pdb
+C:\ni\ni\obj\Debug\ni.Properties.Resources.resources
+C:\ni\ni\obj\Debug\ni.csproj.GenerateResource.Cache
+E:\ni\ni\bin\Debug\ni.exe.config
+E:\ni\ni\bin\Debug\ni.XML
+E:\ni\ni\bin\Debug\ni.exe
+E:\ni\ni\bin\Debug\ni.pdb
+E:\ni\ni\obj\Debug\ni.Properties.Resources.resources
+E:\ni\ni\obj\Debug\ni.csproj.GenerateResource.cache
+E:\ni\ni\obj\Debug\ni.csproj.CoreCompileInputs.cache
+E:\ni\ni\obj\Debug\ni.exe
+E:\ni\ni\obj\Debug\ni.pdb
+C:\Program Files (x86)\ni\ni\bin\Debug\ni.XML
+C:\Program Files (x86)\ni\ni\obj\Debug\ni.csproj.CoreCompileInputs.cache
+F:\Apps\ni\ni\bin\Debug\ni.exe.config
+F:\Apps\ni\ni\bin\Debug\ni.XML
+F:\Apps\ni\ni\bin\Debug\ni.exe
+F:\Apps\ni\ni\bin\Debug\ni.pdb
+F:\Apps\ni\ni\obj\Debug\ni.Properties.Resources.resources
+F:\Apps\ni\ni\obj\Debug\ni.csproj.GenerateResource.cache
+F:\Apps\ni\ni\obj\Debug\ni.csproj.CoreCompileInputs.cache
+F:\Apps\ni\ni\obj\Debug\ni.exe
+F:\Apps\ni\ni\obj\Debug\ni.pdb
+C:\Program Files (x86)\ni\ni\obj\Debug\ni.csprojResolveAssemblyReference.cache
+C:\Users\ac-leite\Documents\ni\ni\bin\Debug\ni.exe.config
+C:\Users\ac-leite\Documents\ni\ni\bin\Debug\ni.exe
+C:\Users\ac-leite\Documents\ni\ni\bin\Debug\ni.pdb
+C:\Users\ac-leite\Documents\ni\ni\obj\Debug\ni.Properties.Resources.resources
+C:\Users\ac-leite\Documents\ni\ni\obj\Debug\ni.csproj.GenerateResource.cache
+C:\Users\ac-leite\Documents\ni\ni\obj\Debug\ni.csproj.CoreCompileInputs.cache
+C:\Users\ac-leite\Documents\ni\ni\obj\Debug\ni.exe
+C:\Users\ac-leite\Documents\ni\ni\obj\Debug\ni.pdb
+C:\Users\ac-leite\Documents\ni\ni\obj\Debug\ni.csprojResolveAssemblyReference.cache
+C:\Users\ac-leite\Documents\ni\ni\obj\Debug\ni.frmSecondsBetweenCapture.resources
+C:\ni\ni\obj\Debug\ni.frmSecondsBetweenCapture.resources
+C:\ni\ni\obj\Debug\ni.csproj.CoreCompileInputs.cache
+C:\ni\ni\bin\Debug\ni.exe.CodeAnalysisLog.xml
+C:\ni\ni\bin\Debug\ni.exe.lastcodeanalysissucceeded
