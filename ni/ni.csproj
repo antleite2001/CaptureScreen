@@ -41,7 +41,8 @@
     <StartupObject>ni.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Red-camera.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -92,43 +93,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Capture.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Capture2.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Capture3.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\SystemTrayApp.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\About.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Capture.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Exit.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Explorer.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\OpenFolder.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\OpenFolder.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Green-camera.ico" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Red-camera.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Red-camera.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

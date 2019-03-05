@@ -117,7 +117,7 @@ namespace ni
                   {
                     if (e.Button == MouseButtons.Left && !CaptureEvery_x_SecToolStripMenuItem.Checked)
                     {
-                      Debug.WriteLine(DateTime.Now.ToString() + " Capture from Icon");
+                     //Debug.WriteLine(DateTime.Now.ToString() + " Capture from Icon");
                       CaptureScreen();
                     }
                   }
@@ -303,7 +303,7 @@ namespace ni
               {
                 if (!CaptureEvery_x_SecToolStripMenuItem.Checked)
                 {
-                  Debug.WriteLine(DateTime.Now.ToString() + " Capture from menu");
+                  //Debug.WriteLine(DateTime.Now.ToString() + " Capture from menu");
                   CaptureScreen();
                 }
               }
@@ -322,7 +322,7 @@ namespace ni
         ni.ContextMenuStrip.Items.Add(new ToolStripMenuItem("Exit", Properties.Resources.Exit,
                 (s, e) =>
                 {
-                  Debug.WriteLine(DateTime.Now.ToString() + " " + ((ToolStripMenuItem)s).Text);
+                  //Debug.WriteLine(DateTime.Now.ToString() + " " + ((ToolStripMenuItem)s).Text);
                   t.Enabled = false;
                   ni.Visible = false;
                   Environment.Exit(0);
@@ -513,7 +513,6 @@ namespace ni
       {
 
 
-        Debug.WriteLine(GetKeyState((int)Keys.CapsLock).ToString());
 
         //If CapsLock is On, camera turns to yellow
         if (GetKeyState((int)Keys.CapsLock) == 1)
@@ -545,7 +544,7 @@ namespace ni
         {
           Properties.Settings.Default.KeepCapsLockAlwaysOff = keepCapsLockAlwaysOffToolStripMenuItem.Checked;
           Properties.Settings.Default.Save();
-          Debug.WriteLine("CapsLock SAVED " + Properties.Settings.Default.KeepCapsLockAlwaysOff.ToString());
+          //Debug.WriteLine("CapsLock SAVED " + Properties.Settings.Default.KeepCapsLockAlwaysOff.ToString());
         }
 
         if (keepCapsLockAlwaysOffToolStripMenuItem.Checked)
@@ -559,7 +558,7 @@ namespace ni
         {
           Properties.Settings.Default.KeepNumLockAlwaysOn = keepNumLockAlwaysOnToolStripMenuItem.Checked;
           Properties.Settings.Default.Save();
-          Debug.WriteLine("NumLock SAVED " + Properties.Settings.Default.KeepNumLockAlwaysOn.ToString());
+          //Debug.WriteLine("NumLock SAVED " + Properties.Settings.Default.KeepNumLockAlwaysOn.ToString());
         }
 
 
