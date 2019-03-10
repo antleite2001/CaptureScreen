@@ -2,35 +2,35 @@
 <?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2017\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
 <FxCopReport Version="15.0">
  <Targets>
-  <Target Name="C:\ni\ni\bin\Debug\ni.exe">
+  <Target Name="C:\CaptureScreen\CaptureScreen\ni\bin\Debug\ni.exe">
    <Modules>
     <Module Name="ni.exe">
      <Namespaces>
       <Namespace Name="ni">
        <Types>
-        <Type Name="appcontext" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+        <Type Name="Appcontext" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
          <Members>
           <Member Name="#GetKeyState(System.Int32)" Kind="Method" Static="True" Accessibility="Assembly" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-09-30 14:25:49Z" FixCategory="Breaking">
-             <Issue Certainty="95" Level="CriticalWarning">Because it is a P/Invoke method, 'appcontext.GetKeyState(int)' should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.</Issue>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2019-03-10 07:04:19Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">Because it is a P/Invoke method, 'Appcontext.GetKeyState(int)' should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#keybd_event(System.Byte,System.Byte,System.UInt32,System.UIntPtr)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-09-30 14:25:49Z" FixCategory="Breaking">
-             <Issue Certainty="95" Level="CriticalWarning">Because it is a P/Invoke method, 'appcontext.keybd_event(byte, byte, uint, UIntPtr)' should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.</Issue>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2019-03-10 07:04:19Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">Because it is a P/Invoke method, 'Appcontext.keybd_event(byte, byte, uint, UIntPtr)' should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.</Issue>
             </Message>
            </Messages>
           </Member>
          </Members>
         </Type>
-        <Type Name="appcontext+WallpaperColorChanger+NativeMethods" Kind="Class" Accessibility="Private" ExternallyVisible="False">
+        <Type Name="Appcontext+WallpaperColorChanger+NativeMethods" Kind="Class" Accessibility="Private" ExternallyVisible="False">
          <Members>
           <Member Name="#SystemParametersInfo(System.Int32,System.Int32,System.String,System.Int32)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
            <Messages>
-            <Message Id="2" TypeName="SpecifyMarshalingForPInvokeStringArguments" Category="Microsoft.Globalization" CheckId="CA2101" Status="Active" Created="2018-09-30 14:25:49Z" FixCategory="NonBreaking">
+            <Message Id="2" TypeName="SpecifyMarshalingForPInvokeStringArguments" Category="Microsoft.Globalization" CheckId="CA2101" Status="Active" Created="2019-03-10 07:04:19Z" FixCategory="NonBreaking">
              <Issue Name="Parameter" Certainty="75" Level="Error">To reduce security risk, marshal parameter 'lpvParam' as Unicode, by setting DllImport.CharSet to CharSet.Unicode, or by explicitly marshaling the parameter as UnmanagedType.LPWStr. If you need to marshal this string as ANSI or system-dependent, set BestFitMapping=false; for added security, also set ThrowOnUnmappableChar=true.</Issue>
             </Message>
            </Messages>
@@ -41,24 +41,24 @@
          <Members>
           <Member Name="#GetDesktopWindow()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-09-30 14:25:49Z" FixCategory="Breaking">
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2019-03-10 07:04:19Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="CriticalWarning">Because it is a P/Invoke method, 'ScreenCapture.GetDesktopWindow()' should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#GetForegroundWindow()" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-09-30 14:25:49Z" FixCategory="Breaking">
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2019-03-10 07:04:19Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="CriticalWarning">Because it is a P/Invoke method, 'ScreenCapture.GetForegroundWindow()' should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#GetWindowRect(System.IntPtr,ni.ScreenCapture+Rect&amp;)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-09-30 14:25:49Z" FixCategory="Breaking">
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2019-03-10 07:04:19Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="CriticalWarning">Because it is a P/Invoke method, 'ScreenCapture.GetWindowRect(IntPtr, ref ScreenCapture.Rect)' should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.</Issue>
             </Message>
-            <Message Id="return" TypeName="PInvokeDeclarationsShouldBePortable" Category="Microsoft.Portability" CheckId="CA1901" Status="Active" Created="2018-09-30 14:25:49Z" FixCategory="NonBreaking">
+            <Message Id="return" TypeName="PInvokeDeclarationsShouldBePortable" Category="Microsoft.Portability" CheckId="CA1901" Status="Active" Created="2019-03-10 07:04:19Z" FixCategory="NonBreaking">
              <Issue Name="Return" Certainty="95" Level="Error">As it is declared in your code, the return type of P/Invoke 'ScreenCapture.GetWindowRect(IntPtr, ref ScreenCapture.Rect)' will be 8 bytes wide on 64-bit platforms. This is not correct, as the actual native declaration of this API indicates it should be 4 bytes wide on 64-bit platforms. Consult the MSDN Platform SDK documentation for help determining what data type should be used instead of 'IntPtr'.</Issue>
             </Message>
            </Messages>
@@ -69,20 +69,20 @@
          <Members>
           <Member Name="#FindWindow(System.String,System.String)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-09-30 14:25:49Z" FixCategory="Breaking">
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2019-03-10 07:04:19Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="CriticalWarning">Because it is a P/Invoke method, 'Theming.FindWindow(string, string)' should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.</Issue>
             </Message>
-            <Message Id="0" TypeName="SpecifyMarshalingForPInvokeStringArguments" Category="Microsoft.Globalization" CheckId="CA2101" Status="Active" Created="2018-09-30 14:25:49Z" FixCategory="NonBreaking">
+            <Message Id="0" TypeName="SpecifyMarshalingForPInvokeStringArguments" Category="Microsoft.Globalization" CheckId="CA2101" Status="Active" Created="2019-03-10 07:04:19Z" FixCategory="NonBreaking">
              <Issue Name="ParameterImplicitAnsi" Certainty="75" Level="Error">To reduce security risk, marshal parameter 'sClassName' as Unicode, by setting DllImport.CharSet to CharSet.Unicode, or by explicitly marshaling the parameter as UnmanagedType.LPWStr. If you need to marshal this string as ANSI or system-dependent, specify MarshalAs explicitly, and set BestFitMapping=false; for added security, also set ThrowOnUnmappableChar=true.</Issue>
             </Message>
-            <Message Id="1" TypeName="SpecifyMarshalingForPInvokeStringArguments" Category="Microsoft.Globalization" CheckId="CA2101" Status="Active" Created="2018-09-30 14:25:49Z" FixCategory="NonBreaking">
+            <Message Id="1" TypeName="SpecifyMarshalingForPInvokeStringArguments" Category="Microsoft.Globalization" CheckId="CA2101" Status="Active" Created="2019-03-10 07:04:19Z" FixCategory="NonBreaking">
              <Issue Name="ParameterImplicitAnsi" Certainty="75" Level="Error">To reduce security risk, marshal parameter 'sAppName' as Unicode, by setting DllImport.CharSet to CharSet.Unicode, or by explicitly marshaling the parameter as UnmanagedType.LPWStr. If you need to marshal this string as ANSI or system-dependent, specify MarshalAs explicitly, and set BestFitMapping=false; for added security, also set ThrowOnUnmappableChar=true.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#SendMessage(System.IntPtr,System.UInt32,System.IntPtr,System.IntPtr)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-09-30 14:25:49Z" FixCategory="Breaking">
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2019-03-10 07:04:19Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="CriticalWarning">Because it is a P/Invoke method, 'Theming.SendMessage(IntPtr, uint, IntPtr, IntPtr)' should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.</Issue>
             </Message>
            </Messages>

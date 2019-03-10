@@ -55,3 +55,15 @@ C:\ni\ni\obj\Debug\ni.frmSecondsBetweenCapture.resources
 C:\ni\ni\obj\Debug\ni.csproj.CoreCompileInputs.cache
 C:\ni\ni\bin\Debug\ni.exe.CodeAnalysisLog.xml
 C:\ni\ni\bin\Debug\ni.exe.lastcodeanalysissucceeded
+C:\CaptureScreen\CaptureScreen\ni\bin\Debug\ni.exe.config
+C:\CaptureScreen\CaptureScreen\ni\bin\Debug\ni.exe
+C:\CaptureScreen\CaptureScreen\ni\bin\Debug\ni.pdb
+C:\CaptureScreen\CaptureScreen\ni\bin\Debug\ni.exe.CodeAnalysisLog.xml
+C:\CaptureScreen\CaptureScreen\ni\bin\Debug\ni.exe.lastcodeanalysissucceeded
+C:\CaptureScreen\CaptureScreen\ni\obj\Debug\ni.Properties.Resources.resources
+C:\CaptureScreen\CaptureScreen\ni\obj\Debug\ni.frmSecondsBetweenCapture.resources
+C:\CaptureScreen\CaptureScreen\ni\obj\Debug\ni.csproj.GenerateResource.cache
+C:\CaptureScreen\CaptureScreen\ni\obj\Debug\ni.csproj.CoreCompileInputs.cache
+C:\CaptureScreen\CaptureScreen\ni\obj\Debug\ni.exe
+C:\CaptureScreen\CaptureScreen\ni\obj\Debug\ni.pdb
+C:\CaptureScreen\CaptureScreen\ni\obj\Debug\ni.csprojAssemblyReference.cache
